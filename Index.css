@@ -1,0 +1,68 @@
+
+table {
+    width: 50%;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    background-color: rgb(243, 193, 66);
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:rgb(243, 143, 42);
+    color: white;
+}
+
+form {
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    max-width: 90%;
+}
+
+form label {
+    display: inline-block;
+    width: 200px;
+}
+
+form input {
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+}
+
+button {
+    padding: 10px;
+    background: hsl(229, 90%, 54%);
+    color: white;
+    font-size: 17px;
+    border: 1px solid hsl(0, 0%, 50%);
+    border-left: none;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+button {
+    padding: 10px;
+    background: #1585e0;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
